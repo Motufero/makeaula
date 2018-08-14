@@ -1,6 +1,8 @@
 #ifndef CIRCULO_H
 #define CIRCULO_H
 
+#include <cmath>
+
 class Circulo{
    private:
       float raio;
@@ -12,5 +14,6 @@ class Circulo{
 
         float getRaio();
         float getCircunferencia();
+        float calculaArea();
 };
 #endif

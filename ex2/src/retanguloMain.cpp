@@ -1,15 +1,13 @@
 #include <iostream>
-#include "calculadorArea.h"
+#include "retangulo.h"
 
 using namespace std;
 
 int main (void){    
     Retangulo retangulo(4,4);
 
-    CalculadorArea calculadorArea;
-
     cout << "CALCULANDO ÁREA DE FORMA GEOMÉTRICA[Retangulo]" << endl;
-    cout << "Retangulo: \t"<< calculadorArea.calculaAreaRetangulo(retangulo) << endl;
+    cout << "Retangulo: \t"<< retangulo.calculaArea() << endl;
 
     return EXIT_SUCCESS;
 }

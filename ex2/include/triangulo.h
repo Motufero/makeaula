@@ -13,5 +13,6 @@ class Triangulo{
 
         float getBase();
         float getAltura();
+        float calculaArea();
 };
 #endif

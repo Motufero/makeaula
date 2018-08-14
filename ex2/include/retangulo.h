@@ -1,6 +1,8 @@
 #ifndef RETANGULO_H
 #define RETANGULO_H
 
+#include <cmath>
+
 class Retangulo{
     private:
         float base;
@@ -13,5 +15,6 @@ class Retangulo{
 
         float getBase();
         float getAltura();
+        float calculaArea();
 };
 #endif

@@ -1,15 +1,13 @@
 #include <iostream>
-#include "calculadorArea.h"
+#include "triangulo.h"
 
 using namespace std;
 
 int main (void){
     Triangulo triangulo(2,3);
 
-    CalculadorArea calculadorArea;
-
-    cout << "CALCULANDO ÁREA DE FORMA GEOMÉTRICA[Trinagulo]" << endl;
-    cout << "Triangulo: \t"<< calculadorArea.calculaAreaTriangulo(triangulo) << endl;
+    cout << "CALCULANDO ÁREA DE FORMA GEOMÉTRICA[Triangulo]" << endl;
+    cout << "Triangulo: \t"<< triangulo.calculaArea() << endl;
 
     return EXIT_SUCCESS;
 }

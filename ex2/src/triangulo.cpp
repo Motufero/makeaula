@@ -17,3 +17,8 @@ float
 Triangulo::getAltura(){
     return altura;
 }
+
+float 
+Triangulo::calculaArea(){
+    return (getBase() * getAltura())/2;
+}

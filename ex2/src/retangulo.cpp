@@ -17,3 +17,8 @@ float
 Retangulo::getAltura(){
     return altura;
 }
+
+float 
+Retangulo::calculaArea(){
+    return getBase() * getAltura();
+}

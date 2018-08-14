@@ -15,3 +15,8 @@ float
 Circulo::getCircunferencia(){
     return 2 * raio;
 }
+
+float 
+Circulo::calculaArea(){
+    return pow(getRaio(),2) * M_PI;
+}
